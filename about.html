@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Form</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <section>
+        <!-- to create a form -->
+        <form action="">
+            <!-- to add writeup -->
+            <label for="marital status">Title</label>
+            <input type="radio" name="title" autofocus>Mr
+            <input type="radio" name="title">Mrs
+            <input type="radio" name="title">Miss
+
+            <br><br>
+            <label for="firstname">First Name</label><br>
+            <input type="text" placeholder="Firstname" required><br><br>
+            <label for="firstname">Lastname</label><br>
+            <input type="text" placeholder="Lastname" required><br><br>
+
+            <label for="number">Phone Number</label><br>
+            <input type="number" placeholder="Your Phone Number" required><br><br>
+
+            <label for="text">Email</label><br>
+            <input type="email" placeholder="@email"><br><br>
+
+            <!-- form adding value nt editable -->
+            <label for="price">Salary</label><br>
+            <input type="text" value="N500000" disabled><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+
+
+            <br><br>
+            <!-- to select location -->
+            <label for="location">Location</label>
+            <select>
+                <option> Ikeja</option>
+                <option> ogba</option>
+                <option> Ikotun</option>
+                <option> Gbagada</option>
+            </select>
+
+            
+            <br><br>
+
+            <label for="tellus">Tell us about yourself</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+
+            <!-- to upload picture -->
+
+            <label for="upload your picture">Upload file Not Greater Than 5mb</label><br>
+            <input type="file"><br>
+
+
+            <!-- To use check box -->
+            <h3 style="font-weight: lighter;">Learning Track</h3>
+            <label for="">Select your preferred learning</label> <br> <br>
+            <input type="checkbox" name="" id="">Software Development <br>
+            <input type="checkbox" name="" id="">Cybersecurity <br>
+            <input type="checkbox" name="" id="">Product Management <br>
+            <input type="checkbox" name="" id="">UI/UX <br>
+
+            <!-- to use select for country, state -->
+
+            <br>
+            <button>Register</button><button disabled>Edit</button>
+        </form>
+    </section>
+
+    <h1 style=" text-align: center;">
+        Software Development
+    </h1>
+    <section>
+        <table>
+            <tr>
+                <th>FIRSTNAME</th>
+                <th>LASTNAME</th>
+                <th>LOCATION</th>
+                <th>EMAIL</th>
+                <th>PHONE</th>
+                <th>LINKEDIN</th>
+            </tr>
+            <tr>
+                <td>Oseafian</td>
+                <td>Mary</td>
+                <td>Gbagada</td>
+                <td>oseafianamarychinwe@gmail.com</td>
+                <td>07067825022</td>
+                <td>linkedin.com/in/oseafiana-mary-235220137</td>
+            </tr>
+
+
+
+        </table>
+    </section>
+</body>
+
+</html>

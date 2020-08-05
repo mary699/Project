@@ -1,0 +1,57 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #box1{
+        background-color: cornflowerblue;
+        color: blue;
+        text-align: center;
+        border: solid 5px red;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+        
+    }
+    #box2{
+        background-color: cornflowerblue;
+        color: blue;
+        text-align: center;
+        border: solid 5px red;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
+    #box3{
+        background-color: cornflowerblue;
+        color: blue;
+        text-align: center;
+        border: solid 5px red;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
+    #box4{
+        background-color: cornflowerblue;
+        color: blue;
+        text-align: center;
+        border: solid 5px red;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
+    ol{
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+    }
+    hr{
+        color: aliceblue;
+    }
+    
+
+    #img1{
+
+    }
+    
